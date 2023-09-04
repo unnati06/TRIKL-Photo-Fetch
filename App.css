@@ -1,0 +1,74 @@
+.Body {
+    text-align: center;
+    margin-left: 50vh;
+    width: 100vh;
+  }
+  
+  .Bodyheader {
+    background-color: #201620;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .image-container {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 40px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  img{
+     height: 35vh;
+     width: 35vh;
+  }
+  .text-box {
+    position: absolute;
+    border: 2px solid #007bff;
+    background-color: rgba(0, 123, 255, 0.2);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .text-box p {
+    margin: 0;
+    padding: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-overflow: ellipsis;
+  }
+  .operation{
+    justify-content: space-between;
+    padding: 15px;
+    display: flex;
+  }
+  .operation .forupdate{
+    margin-left: 15px;
+    background-color: #30180a;
+  }
+  .operation .foradd{
+    background-color: #30180a;
+  }
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #30180a;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
